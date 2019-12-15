@@ -1,0 +1,8 @@
+{
+  "manifest_version": 2,
+  "name": "Firefox Clipboard Paste Bug (Working)",
+  "version": "0.0.0",
+  "permissions": ["clipboardRead"],
+  "background": {"page": "bg.html"},
+  "applications": {"gecko": {"id": "test2@firefox-clipboard-paste-bug"}}
+}
